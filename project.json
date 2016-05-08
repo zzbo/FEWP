@@ -1,0 +1,29 @@
+﻿{
+	"name" : "front-end",
+	"description" : "",
+	"channel" : "",
+	"directory" : {
+		"base" : "../../",
+		"static" : {
+			"dev" : "frontend",
+			"compile" : "frontend/release"
+		},
+		"tpls" : "vipmefront/src/html"
+	},
+	"gitBranch": {
+		"staticDev" : "master",
+		"staticCompile" : "master",
+		"tplsVipme" : "master"
+	},
+	"port": {
+		"browsersync" : {
+			"port" : 3000,
+			"ui" : {
+				"port" : 8080,
+				"weinre" : {
+					"port" : 9090
+				}
+			}
+		}
+	}
+}

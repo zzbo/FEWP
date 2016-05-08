@@ -1,0 +1,61 @@
+{
+  "name": "vipme_fe_tools",
+  "version": "1.0.0",
+  "description": "vipme front-end workflow tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.tools.vipshop.com/vipme/vipme_fe_tools.git"
+  },
+  "keywords": [
+    "front-end",
+    "workflow"
+  ],
+  "author": "vipme",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer-loader": "^3.1.0",
+    "browser-sync": "^2.9.11",
+    "bundle-loader": "^0.5.4",
+    "css-loader": "^0.19.0",
+    "ejs-loader": "^0.2.1",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "file-loader": "^0.8.4",
+    "freemarker.js": "^1.2.1",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-changed": "^1.3.0",
+    "gulp-content-includer": "0.0.7",
+    "gulp-cssbeautify": "^0.1.3",
+    "gulp-extend": "^0.2.0",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-import-css": "^0.1.2",
+    "gulp-inline-source": "^2.1.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-rev": "^6.0.1",
+    "gulp-rev-collector": "^1.0.2",
+    "gulp-run-sequence": "^0.3.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "^1.4.2",
+    "gulp-util": "^3.0.7",
+    "gulp.spritesmith": "^4.2.1",
+    "http-proxy": "^1.11.2",
+    "image-webpack-loader": "^1.6.1",
+    "imagemin-pngquant": "^4.2.0",
+    "koa": "^1.0.0",
+    "koa-request": "^1.0.0",
+    "merge-stream": "^1.0.0",
+    "node-sass": "^3.3.3",
+    "optimist": "^0.6.1",
+    "sass-loader": "^3.0.0",
+    "socket.io": "^1.3.7",
+    "stream": "0.0.2",
+    "style-loader": "^0.12.4",
+    "webpack": "^1.12.2"
+  }
+}
